@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de API</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <header class="banner">
+       <img src="./img/logo.PNG" class="logo">
+
+       <nav>
+           <ul>
+               <li><a href="#">Inicio</a></li>
+               <li><a href="#">Temperatura</a></li>
+               <li><a href="#">Sobre</a></li>
+           </ul>
+       </nav>
+   </header>
+
+   <div class="fundo">
+
+   <br>
+   <br>
+   
+   <div id="main-container">
+    <form register-form>
+        <div class="full-box">
+            <input type="text" id="cidade" placeholder="Cidade">
+        </div>
+        <div class="full-box">
+            <button id="btn-buscar">Buscar</button>
+        </div>
+        <div class="full-box">
+            <button id="btn-localizacao">Buscar por localização</button>
+        </div>
+
+
+        <div class="results">
+            <p id="descricao"></p>
+            <p id="temperatura"></p>
+            <p id="icone"></p>
+            <p id="sensacao"></p>
+            <p id="minima"></p>
+            <p id="maxima"></p>
+            <p id="umidade"></p>
+        </div>
+    </form>
+</div>
+<br>
+<br>
+</div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
